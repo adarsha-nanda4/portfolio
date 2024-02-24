@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        width: 100%;
+    }
+    .rando{
+        width: 100%;
+        height: 1000px;
+        background-color: aqua;
+    }
+    .box, .box2{
+        width: 100%;
+        height: 30vh;
+        margin-top: 20px;
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 10px;
+    }
+   .a{
+        color: white;
+        font-size: 90px;
+        transform: translateX(-500%);
+    }
+   .b{
+        color: white;
+        font-size: 90px;
+        transform: translateX(100%);
+    }
+    .show-animate .b{
+        transform: translateX(0%);
+    }
+
+
+
+    .show-animate .a{
+        transform: translateX(0%);
+    }
+    section .a ,.b{
+        transition: 2s;
+    }
+</style>
+
+</head>
+
+
+
+
+
+
+
+<body>
+<div class="rando"></div>
+    <section div.all> 
+    <section class="box show-animate">
+        <div class="a">helo i am adarha </div>
+    </section>
+
+
+
+    <section class="box2">
+        <div class="b">ipsum dolor sit, amet consectetu</div>
+    </section>
+</section>
+
+
+<div class="rando"></div>
+
+
+
+
+
+    
+    <script>
+ let sections=document.querySelectorAll('section')
+window.onscroll= () =>{
+    sections.forEach(sec =>{
+        let top = window.scrollY;
+        let offset =sec.offsetTop -150;
+        let height=sec.offsetHeight;
+
+        if(top >= offset && top<offset + height){
+            sec.classList.add('show-animate');
+        }
+        else{
+            sec.classList.remove('show-animate');
+        }
+    })
+}
+
+    </script>
+</body>
+</html>

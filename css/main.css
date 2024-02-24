@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    /* font-family: 'Gowun Dodum', sans-serif; */
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/* ----------pc menu bar----------------------------------------------------------------- */
+
+
+#menuLIST {
+    width: 250px;
+    height: 80vh;
+    background-color: rgb(22, 21, 26);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+
+
+}
+
+.aboutLIST {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+.item {
+
+    width: 50%;
+    height: 35px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 19px;
+    gap: 30px;
+    font-family: 'Gowun Dodum', sans-serif;
+
+}
+
+.item i {
+    font-size: 27px;
+
+}
+
+.item,
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+@media (max-width:1000px) {
+
+    #menuLIST {
+        display: none;
+    }
+
+}
+
+.item:hover {
+    color: white;
+
+    a {
+        color: white;
+    }
+
+}
+
+
+
+
+
+/* -------------------------social midia list------------- -- */
+.socialLIST {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.socialmedia {
+
+    width: 50%;
+    height: 35px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 19px;
+    gap: 30px;
+    font-family: 'Gowun Dodum', sans-serif;
+
+
+}
+
+#tag {
+    color: gray;
+    width: 100%;
+    height: 35px;
+    font-size: 23px;
+    padding-left: 40px;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+#insta i {
+    font-size: 27px;
+    color: pink;
+
+}
+
+#youtube i {
+    font-size: 27px;
+    color: red;
+}
+
+#github i {
+    font-size: 27px;
+    color: aqua;
+}
+
+#twitter i {
+    font-size: 27px;
+    color: skyblue;
+}
+
+#linkedin i {
+    font-size: 27px;
+    color: blue;
+}
+
+/* hover------- */
+#insta a:hover {
+    color: pink;
+
+}
+
+#youtube a:hover {
+    color: red;
+}
+
+#github a:hover {
+
+    color: aqua;
+}
+
+#linkedin a:hover {
+
+    color: blue;
+}
+
+#twitter a:hover {
+    color: skyblue;
+}
+
+/* -------------------------------.main-page---------- */
+#contener {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+}
+
+#screenONE {
+    width: 350px;
+    height: auto;
+    background-color: black;
+    padding: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#screenTWO {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width:1000px) {
+
+    #screenONE {
+        display: none;
+    }
+
+}
+
+.profilebox {
+    width: 98%;
+    height: 200px;
+    background-image: url(/img/banner.jpg);
+    background-position: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.myimg {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 520px;
+    margin-left: 20px;
+    overflow: hidden;
+    background-image: url(/img/nndu\ 7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 4px solid white;
+}
+
+.myname {
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    font-family: monospace;
+
+}
+
+.myemail {
+    font-size: 11px;
+    color: gray;
+}
+
+/* -----------------------------project------------------- */
+
+.tagname {
+    color: rgb(255, 255, 255);
+    width: 96%;
+    font-size: 25px;
+    margin-top: 30px;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+.project,
+.clone {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projectbox {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.projectimg {
+    width: 100%;
+    height: 60%;
+    background-color: aquamarine;
+}
+
+.projectcode {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projectname {
+    font-size: 20px;
+    font-weight: 900;
+
+    font-family: 'Gowun Dodum', sans-serif;
+
+}
+
+.projecttext {
+    font-size: 15px;
+    color: gray;
+}
+
+@media (max-width:619px) {
+
+    .projectbox {
+        width: 80%;
+        height: 300px;
+    }
+
+    .myimg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profilebox {
+        margin-top: 60px;
+    }
+
+    .myname {
+        font-size: 20px;
+    }
+
+}
+
+
+/*---------------------- clone--------------------------------- */
+.clonebox {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.cloneimg {
+    width: 100%;
+    height: 95%;
+
+
+}
+
+.clonecode {
+    width: 100%;
+    height: 5%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.clonename {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: 300;
+
+
+}
+
+/* --------------skilss----------------- */
+.skills {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.skilbox {
+    width: 90%;
+    height: 500px;
+    border-radius: 40px;
+    position: sticky;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#webskil {
+    background-color: rgb(207, 187, 255);
+    top: 130px;
+  
+}
+
+#js {
+    background-color: rgb(235, 214, 62);
+    top: 150px;
+}
+
+#java {
+    background-color: rgb(219, 227, 249);
+    top: 170px;
+}
+
+
+#android {
+    background-color: rgb(55, 218, 114);
+    top: 190px;
+}
+
+.leftskill {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+.rightskill {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skillname {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+   
+    
+}
+
+.skilltext {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    width: 80%;
+    margin-top: 15px;
+}
+
+/* animation */
+
+#webdevloment {
+    transform: translateY(-50%);
+}
+
+
+
+
+    @keyframes skill {
+        from {
+            transform: translateY(-50%);
+        }
+        to {
+            transform: translateY(0%);
+        }
+    }
+.skills:hover {
+    #webdevloment {
+        animation: skill 1s  forwards;
+
+    }
+    
+}
+    
+  
+  
+
+
+@media (max-width:940px) {
+
+    .skilbox {
+        width: 90%;
+        height: 600px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .skillname {
+        font-size: 30px;
+       
+    }
+
+    #webskil {
+        top: 90px;
+    }
+
+    .skilltext {
+        width: 100%;
+    }
+
+}
+
+
