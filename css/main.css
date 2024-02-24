@@ -10,158 +10,7 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-/* ----------pc menu bar----------------------------------------------------------------- */
 
-
-#menuLIST {
-    width: 250px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 10px;
-
-
-}
-
-.aboutLIST {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 25px;
-    flex-direction: column;
-    padding: 50px 0px;
-}
-
-.item {
-
-    width: 50%;
-    height: 35px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    font-size: 19px;
-    gap: 30px;
-    font-family: 'Gowun Dodum', sans-serif;
-
-}
-
-.item i {
-    font-size: 27px;
-
-}
-
-.item,
-a {
-    color: gray;
-    text-decoration: none;
-}
-
-@media (max-width:1000px) {
-
-    #menuLIST {
-        display: none;
-    }
-
-}
-
-.item:hover {
-    color: white;
-
-    a {
-        color: white;
-    }
-
-}
-
-
-
-
-
-/* -------------------------social midia list------------- -- */
-.socialLIST {
-
-    width: 100%;
-    display: flex;
-    /* background-color: aqua; */
-    gap: 25px;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 0px;
-}
-
-.socialmedia {
-
-    width: 50%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    font-size: 19px;
-    gap: 23px;
-    font-family: 'Gowun Dodum', sans-serif;
-
-
-
-}
-
-#tag {
-    color: gray;
-    width: 100%;
-    height: 35px;
-    font-size: 23px;
-    padding-left: 40px;
-    font-family: 'Gowun Dodum', sans-serif;
-}
-
-#insta i {
-    font-size: 27px;
-    color: pink;
-
-}
-
-#youtube i {
-    font-size: 27px;
-    color: rgba(255, 0, 0, 0.983);
-}
-
-#github i {
-    font-size: 27px;
-    color: aqua;
-}
-
-#twitter i {
-    font-size: 27px;
-    color: skyblue;
-}
-
-#linkedin i {
-    font-size: 27px;
-    color: blue;
-}
-
-/* hover------- */
-#insta a:hover {
-    color: pink;
-
-}
-
-#youtube a:hover {
-    color: red;
-}
-
-#github a:hover {
-
-    color: aqua;
-}
-
-#linkedin a:hover {
-
-    color: blue;
-}
-
-#twitter a:hover {
-    color: skyblue;
-}
 
 /* -------------------------------.main-page---------- */
 #contener {
@@ -479,6 +328,18 @@ a {
         width: 100%;
     }
     
+}
+
+@media (max-width:619px) {
+    .rightskill img{
+        width: 100%;
+    }
+    #js img{
+        width: 200%; 
+    }
+    #java img{
+        width: 100%; 
+    }
 }
 
 
