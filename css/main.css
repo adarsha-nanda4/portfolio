@@ -331,14 +331,24 @@ body {
 }
 
 @media (max-width:619px) {
-    .rightskill img{
+
+
+
+
+    #webskil img{
         width: 100%;
     }
+
     #js img{
         width: 200%; 
     }
     #java img{
         width: 100%; 
+    }
+
+
+    #js{
+        top: 130px;
     }
 }
 
