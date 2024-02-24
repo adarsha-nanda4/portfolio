@@ -261,8 +261,8 @@ a {
 }
 
 .projectbox {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     display: flex;
@@ -324,8 +324,8 @@ a {
 
 /*---------------------- clone--------------------------------- */
 .clonebox {
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     display: flex;
