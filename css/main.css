@@ -199,7 +199,7 @@ a {
 .profilebox {
     width: 98%;
     height: 200px;
-    background-image: url(/img/banner.jpg);
+    background-image: url(/img/banner\ .jpg);
     background-position: 1%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -437,6 +437,7 @@ a {
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+
    
     
 }
@@ -448,33 +449,8 @@ a {
     margin-top: 15px;
 }
 
-/* animation */
-
-#webdevloment {
-    transform: translateY(-50%);
-}
 
 
-
-
-    @keyframes skill {
-        from {
-            transform: translateY(-50%);
-        }
-        to {
-            transform: translateY(0%);
-        }
-    }
-.skills:hover {
-    #webdevloment {
-        animation: skill 1s  forwards;
-
-    }
-    
-}
-    
-  
-  
 
 
 @media (max-width:940px) {
@@ -502,7 +478,7 @@ a {
     .skilltext {
         width: 100%;
     }
-
+    
 }
 
 
