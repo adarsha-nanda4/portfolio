@@ -290,7 +290,6 @@
 
 #menuLIST {
     width: 250px;
-    height: 80%;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
