@@ -39,7 +39,7 @@ study.addEventListener("click",function(){
     window.location=("https://github.com/adarsha-nanda4/Study-Sync")
 });
 
-study.addEventListener("click",function(){
+cutmbol.addEventListener("click",function(){
     window.location=("https://www.cutmbol.com/")
 })
 
