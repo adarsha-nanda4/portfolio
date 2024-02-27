@@ -20,9 +20,8 @@ backbtn.addEventListener("click",function(){
 
 });
 let pixel=document.getElementById("pixel");
-
 pixel.addEventListener("click",function(){
-    window.location=("https://github.com/adarsh-nanda4/pixel-website")
+    window.location=("https://github.com/adarsha-nanda4/pixel-website")
 })
 
 
