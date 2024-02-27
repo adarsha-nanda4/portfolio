@@ -9,12 +9,30 @@
     height: 55px;
     background-color: rgb(0, 0, 0);
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 100;
-
 }
+.navlogo{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0px;
+}
+h1{
+    color: white;
+    margin-left: 40px;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+.codeview{
+    color: rgb(44, 208, 98);
+    font-size: 30px;
+    margin-left: 2px;
+}
+
+
 
 #contact_me {
     color: white;
@@ -46,6 +64,10 @@
     #menuBTN {
         display: flex;
     }
+    .navlogo{
+        display: none;  
+    }
+
 
 }
 

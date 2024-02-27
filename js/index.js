@@ -45,7 +45,12 @@ cutmbol.addEventListener("click",function(){
 
 
 
-
+a=true;
+var typed = new Typed('#element', {
+     strings: ['"Hello world"', '  I am Adarsha Nanada. ',' A frontend web developer ','adarshananda.com', 'pixel.adarshananda.com'],
+     typeSpeed: 100,
+     loop:true
+   });
 
 
 
