@@ -115,7 +115,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    box-shadow: 1px 10px 8px rgba(255, 255, 255, 0.354);
+   
 }
 
 .projectimg {
@@ -145,6 +145,10 @@ body {
 .projecttext {
     font-size: 15px;
     color: gray;
+}
+
+.projectbox:hover{
+    box-shadow: 1px 5px  20px 5px rgb(255, 255, 255);
 }
 
 @media (max-width:619px) {
