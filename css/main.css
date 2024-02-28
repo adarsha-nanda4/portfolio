@@ -183,7 +183,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    box-shadow: 1px 5px 20px 5px rgb(255, 255, 255);
+   
 }
 
 .cloneimg {
@@ -213,7 +213,9 @@ body {
 
 
 }
-
+.clonebox:hover{
+    box-shadow: 1px 5px 20px 5px rgb(255, 255, 255);
+}
 
 @media (max-width:619px) {
 
