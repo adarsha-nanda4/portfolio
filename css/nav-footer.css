@@ -171,6 +171,7 @@ h1{
     transition: all .7s;
     z-index: -1;
    }
+
    .hireme:hover::before {
     transform: translateX(0);
    }
@@ -261,6 +262,7 @@ h1{
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .aboutbox a{
     color: white; 
 }
