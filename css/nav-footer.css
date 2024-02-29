@@ -278,7 +278,7 @@ h1{
 }
 
 .aboutbox:hover::before {
- transform: translateX(0);
+ transform: translateX(50%);
 }
 
 
