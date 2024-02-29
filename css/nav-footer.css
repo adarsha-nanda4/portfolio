@@ -273,7 +273,7 @@ h1{
     height: 100%;
     background-color: greenyellow;
     transform: translateX(-100%);
-    transition: all .7s;
+    transition: all .9s;
     z-index: -1;
 }
 
