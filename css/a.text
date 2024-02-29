@@ -1,0 +1,34 @@
+.hireme {
+
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    color: white;
+    border: 3px solid greenyellow;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.hireme::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    transform: translateX(-100%);
+    transition: all .7s;
+    z-index: -1;
+   }
+
+   .hireme:hover::before {
+    transform: translateX(0);
+   }
+.hireme a {
+    color: black;
+}

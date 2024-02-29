@@ -261,6 +261,9 @@ h1{
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.aboutbox::after{
+    
+}
 
 .aboutbox a{
     color: white; 
