@@ -272,13 +272,14 @@ h1{
     width: 100%;
     height: 100%;
     background-color: greenyellow;
+    color: black;
     transform: translateX(-100%);
     transition: all .7s;
     z-index: -1;
 }
 
 .aboutbox:hover::before {
- transform: translateX(50%);
+ transform: translateX(60%);
 }
 
 
