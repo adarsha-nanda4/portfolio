@@ -211,10 +211,6 @@ body {
 
 
 }
-.clonebox:hover{
-    box-shadow: 1px 5px 20px 5px rgb(255, 255, 255);
-}
-
 @media (max-width:619px) {
 
     .clonebox {
