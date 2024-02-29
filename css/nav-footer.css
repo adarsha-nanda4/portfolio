@@ -262,8 +262,18 @@ h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .aboutbox::after{
-    
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    transform: translateX(-100%);
+    transition: all .7s;
+    z-index: -1;
 }
+
 
 .aboutbox a{
     color: white; 
