@@ -173,7 +173,7 @@ h1{
    }
 
    .hireme:hover::before {
-    transform: translateX(0);
+    transform: translateX(55%);
    }
 .hireme a {
     color: black;
