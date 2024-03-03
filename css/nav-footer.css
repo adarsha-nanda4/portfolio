@@ -21,15 +21,10 @@
     align-items: center;
     gap: 0px;
 }
-h1{
+h2{
     color: white;
     margin-left: 40px;
     font-family: 'Gowun Dodum', sans-serif;
-}
-.codeview{
-    color: rgb(44, 208, 98);
-    font-size: 30px;
-    margin-left: 2px;
 }
 
 
