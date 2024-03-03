@@ -20,38 +20,19 @@ backbtn.addEventListener("click",function(){
 
 });
 
-let pixel=document.getElementById("pixel");
-let face=document.getElementById("face");
-let study=document.getElementById("study");
-let cutmbol=document.getElementById("cutmbol");
-
-
-face.addEventListener("click",function(){
-    window.location=("https://github.com/adarsha-nanda4/Face-Attendance")
-})
-
-
-pixel.addEventListener("click",function(){
-    window.location=("https://github.com/adarsha-nanda4/Pixel-Wallpaper-Website")
-})
-
-study.addEventListener("click",function(){
-    window.location=("https://github.com/adarsha-nanda4/Study-Sync")
-});
-
-cutmbol.addEventListener("click",function(){
-    window.location=("https://www.cutmbol.com/")
-})
 
 
 
-a=true;
-var typed = new Typed('#element', {
-     strings: ['"Hello world"', '  I am Adarsha Nanda. ',' A frontend web developer ','adarshananda.com', 'Git Hub: adarsha-nanda4',
-    'Linkedin: Adarsha Nanda'],
-     typeSpeed: 100,
-     loop:true
-   });
+
+
+
+// a=true;
+// var typed = new Typed('#element', {
+//      strings: ['"Hello world"', '  I am Adarsha Nanda. ',' A frontend web developer ','adarshananda.com', 'Git Hub: adarsha-nanda4',
+//     'Linkedin: Adarsha Nanda'],
+//      typeSpeed: 100,
+//      loop:true
+//    });
 
 
 
