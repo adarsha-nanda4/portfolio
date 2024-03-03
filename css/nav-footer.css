@@ -13,18 +13,20 @@
     align-items: center;
     position: fixed;
     z-index: 100;
+    
 }
 .navlogo{
     height: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     gap: 0px;
+    padding-left: 30px;
 }
-h2{
+code{
     color: white;
-    margin-left: 40px;
     font-family: 'Gowun Dodum', sans-serif;
+    font-size: 22px;
 }
 
 
