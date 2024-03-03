@@ -229,7 +229,7 @@ gap: 10px;
     justify-content: center;
     background-color: rgba(128, 128, 128, 0.594);
     border-radius: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
    
 }
 .projectlive{
@@ -243,10 +243,17 @@ gap: 10px;
     text-align: center;
 
 }
+.projectlive:hover{
+    color: black;
+}
 .projectskill:hover{
     /* color: white; */
     background-color:rgba(44, 208, 99, 0.564) ;
     border: 1px solid rgb(44, 208, 98);
+}
+.projectgitbtn:hover{
+ background-color: black;
+ color: white;
 }
 
 
