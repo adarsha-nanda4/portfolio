@@ -409,13 +409,13 @@ text-align: center;
 @media (max-width:940px) {
 
     .skilbox {
-        width: 90%;
-        height: 550px;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+    width: 90%;
+    height: 550px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
     }
 
