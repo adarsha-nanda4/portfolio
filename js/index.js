@@ -20,12 +20,6 @@ backbtn.addEventListener("click",function(){
 
 });
 
-
-
-
-
-
-
 a=true;
 var typed = new Typed('#codetext', {
      strings: ['"Hello world"', '  I am Adarsha Nanda. ',' A frontend web developer ','adarshananda.com', 'Git Hub: adarsha-nanda4',
