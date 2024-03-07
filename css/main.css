@@ -263,7 +263,7 @@ text-align: center;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color:rgba(128, 128, 128, 0.764);
+    background-color:rgba(128, 128, 128, 0.844);
     transform: translateY(-100%);
     transition: all .7s;
     z-index: 10;
@@ -276,6 +276,12 @@ text-align: center;
    }
    #faceproject::before {
     content: "Face Recognition Attendance System built using Python, OpenCV, and face_recognition libraries. It leverages computer vision technology to automate attendance recording, offering increased accuracy and efficiency compared to traditional methods. ";
+   }
+   #cutmbolproject::before {
+    content: "Our team is committed to maintaining an updated and dynamic online presence. We are constantly working behind the scenes to improve the website's functionality, enhance its content, and incorporate feedback from our users ";
+   }
+   #studyproject::before {
+    content: "We have developed an innovative college Android app, which is divided into two parts: one for students and an Admin app for teachers to control the overall functionality. This app comprises four main features ";
    }
    .projectimg:hover::before {
     transform: translateY(0%);
