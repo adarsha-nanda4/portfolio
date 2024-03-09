@@ -102,8 +102,9 @@ background-color: rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     gap: 20px;
+    /* padding-left: 30px; */
 }
 
 .projectbox {
@@ -342,9 +343,10 @@ text-align: center;
     width: 100%;
     margin-top: 20px;
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     gap: 10px;
+    /* background-color: antiquewhite; */
 }
 
 
