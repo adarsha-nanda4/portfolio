@@ -107,8 +107,8 @@ background-color: rgb(0, 0, 0);
 }
 
 .projectbox {
-    width: 300px;
-    height: 450px;
+    width: 350px;
+    height: 470px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     display: flex;
@@ -155,6 +155,14 @@ background-color: rgb(0, 0, 0);
 }
 #studyproject{
     background-image: url(/img/studyapp.jpg); 
+    transition: transform .2s;
+}
+#unvoproject{
+    background-image: url(/img/unvo.png); 
+    transition: transform .2s;
+}
+#rankingproject{
+    background-image: url(/img/ranking.png); 
     transition: transform .2s;
 }
 
@@ -283,6 +291,14 @@ text-align: center;
    #studyproject::before {
     content: "We have developed an innovative college Android app, which is divided into two parts: one for students and an Admin app for teachers to control the overall functionality. This app comprises four main features ";
    }
+   #unvoproject::before {
+    content: "UNVO is a fun and exciting random chat app designed to connect people from all over the world in real-time conversations.  have interesting conversations, or simply pass the time, UNVO provides safe the user privacy ";
+   }
+   #rankingproject::before {
+    content: "Rank is a cutting-edge application designed to streamline the process of ranking students based on their academic performance. Whether it's for schools, colleges, or universities, MarkRank provides a comprehensive solution for educators and administrators to efficiently analyze and rank student marks ";
+   }
+   
+
    .projectimg:hover::before {
     transform: translateY(0%);
    }
