@@ -2,6 +2,7 @@
 
 * {
     scroll-behavior: smooth;
+    scroll-margin-top: 80px;
 }
 
 #navbar {
