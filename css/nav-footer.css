@@ -51,20 +51,18 @@ code{
 }
 
 #menuBTN {
-    color: white;
-    margin: 0px 15px;
-    font-size: 25px;
-    display: none;
+color: white;
+margin: 0px 15px;
+font-size: 25px;
+display: none;
 }
-
 @media (max-width:1000px) {
-
-    #menuBTN {
-        display: flex;
-    }
-    .navlogo{
-        display: none;  
-    }
+ #menuBTN {
+  display: flex;
+  }
+ .navlogo{
+    display: none;  
+  }
 
 
 }
