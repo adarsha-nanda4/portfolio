@@ -163,7 +163,7 @@ background-color: rgb(0, 0, 0);
 }
 #rankingproject{
     background-image: url(/img/frontpage-removebg.png); 
-    background-color: black;
+    background-color: rgb(210,228,254);
     transition: transform .2s;
 }
 
