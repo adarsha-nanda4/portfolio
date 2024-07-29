@@ -400,6 +400,11 @@ text-align: center;
     background-color: rgb(55, 218, 114);
     top: 190px;
 }
+#react {
+    background-color: rgb(103, 193, 199);
+    top: 200px;
+}
+
 
 .leftskill {
     width: 50%;
