@@ -58,20 +58,31 @@
   Your browser does not support the audio element.
 </audio>
 
+<h1>Click anywhere to play background music</h1>
 
-<!-- partial -->
-  <script  src="/mobile.js"></script>
+<script>
+  window.addEventListener('load', function () {
+    const audio = document.getElementById('bg-music');
+    
+    function startAudio() {
+      audio.play()
+        .then(() => {
+          console.log('Audio playing with sound');
+        })
+        .catch(e => {
+          console.log('Autoplay blocked:', e);
+        });
+      // Remove event listener after audio starts
+      document.body.removeEventListener('click', startAudio);
+    }
 
-  <script>
-
-    window.addEventListener('load', function () {
-      const audio = document.getElementById('bg-music');
-      audio.play().catch(e => {
-          console.log('Audio autoplay blocked:', e);
-      });
+    // Prompt user to interact to unmute audio
+    document.body.addEventListener('click', startAudio);
   });
+</script>
 
-  </script>
+
+  <script  src="/mobile.js"></script>
 
 </body>
 </html>
