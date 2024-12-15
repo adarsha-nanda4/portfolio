@@ -1,3 +1,9 @@
+let heart = document.getElementById("heart");
+
+heart.addEventListener("click",function(){
+  window.location="note.html"
+})
+
 let highestZ = 1;
 
 class Paper {
@@ -89,11 +95,3 @@ papers.forEach(paper => {
 });
 
 
-
-
-  // window.addEventListener('load', function () {
-  //     const audio = document.getElementById('bg-music');
-  //     audio.play().catch(e => {
-  //         console.log('Audio autoplay blocked:', e);
-  //     });
-  // });
