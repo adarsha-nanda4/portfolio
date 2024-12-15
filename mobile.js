@@ -87,3 +87,13 @@ papers.forEach(paper => {
   const p = new Paper();
   p.init(paper);
 });
+
+
+
+
+  // window.addEventListener('load', function () {
+  //     const audio = document.getElementById('bg-music');
+  //     audio.play().catch(e => {
+  //         console.log('Audio autoplay blocked:', e);
+  //     });
+  // });

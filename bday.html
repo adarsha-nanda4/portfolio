@@ -51,8 +51,27 @@
 <div class="paper">
 <p class="p1">Drag the papers to move!</p>
 </div>
+
+
+<audio id="bg-music" loop>
+  <source src="/images/song.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+
 <!-- partial -->
   <script  src="/mobile.js"></script>
+
+  <script>
+
+    window.addEventListener('load', function () {
+      const audio = document.getElementById('bg-music');
+      audio.play().catch(e => {
+          console.log('Audio autoplay blocked:', e);
+      });
+  });
+
+  </script>
 
 </body>
 </html>
