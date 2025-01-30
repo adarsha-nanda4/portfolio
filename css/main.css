@@ -166,6 +166,11 @@ background-color: rgb(0, 0, 0);
     background-color: rgb(210,228,254);
     transition: transform .2s;
 }
+#menuproject{
+    background-image: url(/img/menu.png); 
+    background-color: rgb(210,228,254);
+    transition: transform .2s;
+}
 
 .projectimg p{
     margin-top: 20px;
@@ -297,6 +302,9 @@ text-align: center;
    }
    #rankingproject::before {
     content: "Rank is a cutting-edge application designed to streamline the process of ranking students based on their academic performance. Whether it's for schools, colleges, or universities, MarkRank provides a comprehensive solution for educators and administrators to efficiently analyze and rank student marks ";
+   }
+   #menuproject::before {
+    content: "Menu App is a user-friendly platform designed to provide students with a seamless way to access their daily hostel menu and live food photos. The app ensures transparency by offering real-time updates on meal schedules, so students always know what's being served. ";
    }
    
 
